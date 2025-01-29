@@ -1,0 +1,54 @@
+/*Nicholas Benson*/
+/*Spring 2023*/
+/*CIS 231*/
+/*Cairn Universit*/
+
+.App{
+  text-align: center;
+}
+
+.divTable{
+  display:table;
+  max-width: 20em;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.divTableRow{
+  display: table-row;
+}
+
+.divTableHeading{
+  background-color: white;
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableCell,
+.divTableHead{
+  border: 1px solid silver;
+  display: table-cell;
+  padding: 3 px 10 px;
+}
+
+.divTableFoot{
+  background: blue;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody{
+  display: table-row-group;
+}
+
+.divTableCell:nth-child(1n){
+  background-color: aqua;
+}
+
+.container{
+  display: flex;
+  opacity: 0,9;
+  background-color: gray;
+  justify-content: center;
+}
